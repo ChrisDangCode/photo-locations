@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Photo locations</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Mapbox GL HS-->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.jsi'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel=’stylesheet’ />
+
+</head>
+<body>
+
+    <div id='map'></div>
+
+    <!--
+    <script type="text/javascript" src="mapbox.js"></script>
+-->
+<script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoiY2Rhbmdjb2RlIiwiYSI6ImNqd2I1Mnc2MjBoMzk0YW9kZGt3cnZuaWQifQ.JzdvfTUTtVOQBOpXWC-uXg';
+        var map = new mapboxgl.Map({
+        container: 'map', // container id
+        style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
+        center: [-74.50, 40], // starting position [lng, lat]
+        zoom: 9 // starting zoom
+        });
+        </script>
+
+
+
+</body>
+</html>
