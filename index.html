@@ -8,8 +8,8 @@
 
     <link rel="stylesheet" type="text/css" href="style.css">
     <!-- Mapbox GL HS-->
-    <script src='https://api.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.jsi'></script>
-    <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel=’stylesheet’ />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css' rel='stylesheet' />
 
 </head>
 <body>
@@ -19,12 +19,14 @@
     <!--
     <script type="text/javascript" src="mapbox.js"></script>
 -->
+
+
 <script>
         mapboxgl.accessToken = 'pk.eyJ1IjoiY2Rhbmdjb2RlIiwiYSI6ImNqd2I1Mnc2MjBoMzk0YW9kZGt3cnZuaWQifQ.JzdvfTUTtVOQBOpXWC-uXg';
         var map = new mapboxgl.Map({
         container: 'map', // container id
         style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
-        center: [-74.50, 40], // starting position [lng, lat]
+        center: [44.974208, -93.232526], // starting position [lng, lat]
         zoom: 9 // starting zoom
         });
         </script>
