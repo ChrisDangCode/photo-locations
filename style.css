@@ -1,13 +1,29 @@
+#text{
+height: 30%;
+
+}
 #map {
     width:100%;
-    height: 800px;
+    height: 70%;
     position: absolute;
+    margin-top: 0px;
   }
+
+
 
   .link{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1%;
+    font-size: 1.5em;
+  } 
 
-      position: absolute;
-      margin-top: 850px;
-      font-size: 35px;
+  h1, h2, p, a{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
   }
 
+
+
+
+  }

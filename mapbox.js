@@ -5,17 +5,12 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiY2Rhbmdjb2RlIiwiYSI6ImNqd2I1Mnc2MjBoMzk0YW9kZ
         var map = new mapboxgl.Map({
         container: 'map', // container id
         style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
-        center: [-93.232583, 44.974139], // starting position [lng, lat]
+        center: [-93.232583, 44.974139], // starting position [lng, lat] Centered on Keller Hall
         zoom: 13 // starting zoom
         });
 
-
-/* Keller Hall - Center */
-/*
-var marker = new mapboxgl.Marker()
-.setLngLat([-93.232583, 44.974139])
-.addTo(map);
-*/
+/*Some areas could not be found due to cutlines not listing locations, or 
+cutlines had indescriptive locations. */
 
 /* 1 Comstock */
 var marker = new mapboxgl.Marker()
